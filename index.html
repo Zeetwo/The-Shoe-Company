@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The shoe Company</title>
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
 </head>
 
 <body class="bg-black text-white">
-    <header class="flex items-center justify-between w-full section-container">
+    <header class="flex items-center justify-between w-full section-container ">
         <a href="#">
             <img src="/The shoe Company/images/Group 2.png" alt="logo" class="h-20 ml-4 md:h-32">
         </a>
@@ -20,7 +22,7 @@
             <a href="#Testimonials">Testimonials</a>
             <a href="#Contact Us">Contact Us</a>
         </nav>
-        <button class="text-4xl md:hidden">☰</button>
+        <button id="btn" class="text-4xl md:hidden open-menu:text-blue-800">☰</button>
     </header>
     <section id="hero"
         class="bg-[url('./images/background-road-1.png')] bg-cover md:bg-contain bg-no-repeat bg-right  pt-24 md:pt-36 px-12 max-w-[1440px] mx-auto">

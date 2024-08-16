@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.9 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -903,6 +903,11 @@ video {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+}
+
+.open-menu .open-menu\:text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 768px) {
